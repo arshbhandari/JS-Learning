@@ -36,3 +36,4 @@ console.log("B" , myArr)    // B [ 0, 9, 2, 3, 4, 5 ]
 const newN2 = myArr.splice(1,3)
 console.log(newN2)          // [ 9, 2, 3 ]
 console.log("C " , myArr)   // C  [ 0, 4, 5 ]
+
