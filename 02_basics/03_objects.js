@@ -4,12 +4,12 @@
 
 //objects literals  - it cannot make singletons
 
-const mySym = Symbol("Key")     // defining symbol
+const mySym = Symbol()     // defining symbol
 
 const JsUser = {
     name: "Arsh",
     "full name": "Arsh Bhandari",
-    [mySym]: "myKey1",
+    [mySym]: "myKey",
     age: 13,
     location: "Uttarakhand",
     email: "arshbhandari39@gmail.com",
@@ -39,4 +39,4 @@ JsUser.greetingTwo = function(){
     console.log(`hello , ${this.name}`)
 }
 
-console.log(JsUser.greetingTwo())    // hello , Arsh
+// console.log(JsUser.greetingTwo())    // hello , Arsh
