@@ -41,5 +41,45 @@ function loginUserMessage(username = "arsh"){
     }
     return `${username} just logged in`
 }
-console.log(loginUserMessage())     // default user name arsh 
-console.log(loginUserMessage("Kris"))   // krish has more priority than arsh
+// console.log(loginUserMessage())     // default user name arsh 
+// console.log(loginUserMessage("Kris"))   // krish has more priority than arsh
+
+
+// function calculateCartPrice(num1){
+//     return num1;
+// }
+// console.log(calculateCartPrice(200,777,800))            // 200
+
+
+// function calculateCartPrice(...num1){
+//     return num1;
+// }
+// console.log(calculateCartPrice(200,777,800))            // [ 200, 777, 800 ]
+
+function calculateCartPrice(val1 ,val2 ,...num1){
+    return num1;
+}
+// console.log(calculateCartPrice(200,777,800,7889))            // [ 800 , 7889]
+
+
+const user = {
+    username: "arsh",
+    price : 199
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price ${anyobject.price}`);
+}
+
+// handleObject(user)      // Username is arsh and price 199
+// handleObject({
+//     username: "arsh",
+//     price:334
+// })                          // same ans
+
+
+const myArr = [200,300,400,600]
+function returnSecondVal(getArray){
+    console.log(getArray[0])     // return getArray[1]
+}
+returnSecondVal(myArr)          // console.log(returnSecondVal(myArr))
