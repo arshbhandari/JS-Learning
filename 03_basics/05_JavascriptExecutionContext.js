@@ -9,11 +9,11 @@
 // example -> var1 =undefined , var2->undefined , addnum -> definition ,result1 -> undefined .
 let var1 = 10
 let var2= 5
-function addnum(var1,var2){
-    let total = var1+var2;
+function addnum(num1,num2){
+    let total = num1+num2;
     return total;
 }
-let result1 = addnum(val1,val2)
+let result1 = addnum(var1,var2)
 let result2 = addnum(3,5)
 
 // Step3 -> execution Phase
