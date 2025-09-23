@@ -18,20 +18,20 @@
     const parent = document.querySelector('.parent')
     // console.log(parent)
     // console.log(parent.children)         // it will give html collection
-    // console.log(parent.children[1].innerHTML)  // Tuesday
+    console.log(parent.children[1].innerHTML)  // Tuesday
 
     // for(let i = 0;i<parent.children.length; i++){
     //     console.log(parent.children[i].innerHTML); // print all the days 
     // } 
-    // parent.children[1].style.color = "orange"
+    parent.children[1].style.color = "orange"
 
     // console.log(parent.firstElementChild)
     // console.log(parent.lastElementChild)
 
-    // const day1 = document.querySelector('.day')
-    // console.log(day1)                        // monday
+    const day1 = document.querySelector('.day')
+    console.log(day1.innerHTML)                        // monday
     // console.log(day1.parentElement);        // div class = parent
-    // console.log(day1.nextElementSibling);  // tuesday
+    console.log(day1.nextElementSibling);  // tuesday
 
     console.log("NODES : " , parent.childNodes);   // 11
     
